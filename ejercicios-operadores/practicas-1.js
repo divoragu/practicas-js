@@ -3,34 +3,34 @@
 // 2. Usando el console.log(), muestra al usuario el valor asignado a cada variable.
 // 3. Finalmente, utilizando el console.log() y el typeof(), muestra al usuario el tipo de dato de cada una de las variables utilizadas.
 
-let nombre = "Amadeo";
-let apellido = "Ragu";
-let edad = 5;
-let numTel = 3412276177;
-let socio = true;
-let fechaPartido = "12-08-2023";
-let horaPartido = "20:00";
-let numSilla = 23;
-let precioBoleto = 2000;
+// let nombre = "Amadeo";
+// let apellido = "Ragu";
+// let edad = 5;
+// let numTel = 3412276177;
+// let socio = true;
+// let fechaPartido = "12-08-2023";
+// let horaPartido = "20:00";
+// let numSilla = 23;
+// let precioBoleto = 2000;
 
-console.log(nombre)
-console.log(typeof(nombre))
-console.log(apellido)
-console.log(typeof(apellido))
-console.log(edad)
-console.log(typeof(edad))
-console.log(numTel)
-console.log(typeof(numTel))
-console.log(socio)
-console.log(typeof(socio))
-console.log(fechaPartido)
-console.log(typeof(fechaPartido))
-console.log(horaPartido)
-console.log(typeof(horaPartido))
-console.log(numSilla)
-console.log(typeof(numSilla))
-console.log(precioBoleto)
-console.log(typeof(precioBoleto))
+// console.log(nombre)
+// console.log(typeof(nombre))
+// console.log(apellido)
+// console.log(typeof(apellido))
+// console.log(edad)
+// console.log(typeof(edad))
+// console.log(numTel)
+// console.log(typeof(numTel))
+// console.log(socio)
+// console.log(typeof(socio))
+// console.log(fechaPartido)
+// console.log(typeof(fechaPartido))
+// console.log(horaPartido)
+// console.log(typeof(horaPartido))
+// console.log(numSilla)
+// console.log(typeof(numSilla))
+// console.log(precioBoleto)
+// console.log(typeof(precioBoleto))
 
 
 //ejercicio 2
@@ -52,3 +52,14 @@ console.log(typeof(precioBoleto))
 // Ha recibido un aumento del 25%:
 // $5000
 // y su nuevo sueldo es de: $25000
+
+let name = "Divo Mustafa";
+let lastName = "Ragu";
+let currentSalary = 100000;
+let percentageIncreased = 25;
+
+let increaseCalculation = ((currentSalary * percentageIncreased)/ 100);
+
+let newSalary = currentSalary + increaseCalculation;
+
+console.log('Hola, estimado ' + name + ' ' + lastName +"\n" + "En base a su sueldo actual:" + "\n" + currentSalary + "\n"+ "Ha recibido un aumento del 25%" + "\n"+ increaseCalculation + "\n" + "y su nuevo sueldo es de: " + newSalary);
